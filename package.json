@@ -11,8 +11,8 @@
   "author": "Sean Matheson <sean@ctrlplusb.com>",
   "license": "MIT",
   "devDependencies": {
-    "@lerna-cola/cli": "^0.1.12",
-    "@lerna-cola/plugin-deploy-now": "^0.1.11",
+    "@lerna-cola/cli": "^0.1.13",
+    "@lerna-cola/plugin-deploy-now": "^0.1.12",
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",

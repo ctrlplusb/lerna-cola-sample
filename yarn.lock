@@ -92,11 +92,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@lerna-cola/cli@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.12.tgz#e55144f99432c80dad149ff2b66941b6933c9998"
+"@lerna-cola/cli@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.13.tgz#d61d79b886b189ec2f8957ba718e102526c89009"
   dependencies:
-    "@lerna-cola/lib" "^0.1.11"
+    "@lerna-cola/lib" "^0.1.12"
     "@lerna-cola/utils" "^0.1.11"
     chokidar "2.0.4"
     dotenv "6.0.0"
@@ -108,9 +108,9 @@
     semver "5.5.0"
     yargs "11.0.0"
 
-"@lerna-cola/lib@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.11.tgz#e34b2abb28800917876b7dd4788a83838252d8ab"
+"@lerna-cola/lib@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.12.tgz#2454b2cbf15ff4a84e913d78d32bf1334b0536c5"
   dependencies:
     chalk "2.4.1"
     dedent "0.7.0"
@@ -130,11 +130,11 @@
     write-json-file "2.3.0"
     write-pkg "3.2.0"
 
-"@lerna-cola/plugin-deploy-now@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.11.tgz#1d75a4b5fcf51de2a15a7535c3b870377f7473f2"
+"@lerna-cola/plugin-deploy-now@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.12.tgz#2bb0ac1c8c3e9bfc44bf1049116fb2fdcff55c6e"
   dependencies:
-    "@lerna-cola/lib" "^0.1.11"
+    "@lerna-cola/lib" "^0.1.12"
     chalk "2.4.1"
     dedent "0.7.0"
     deepmerge "2.1.1"
