@@ -1,0 +1,9 @@
+{
+  "name": "@lerna-cola-sample/utils-api",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^2.1.1"
+  }
+}

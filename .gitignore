@@ -1,0 +1,7 @@
+**/build
+.DS_Store
+.env
+.vscode
+.webpackcache
+node_modules
+yarn-error.log
