@@ -1,33 +1,51 @@
 module.exports = {
   packages: {
-    "@lerna-cola-sample/api-basket": {
-      developPlugin: "core-plugin-develop-server",
+    '@lerna-cola-sample/api-basket': {
+      developPlugin: 'plugin-develop-server',
       deployPlugin: {
-        name: "@lerna-cola/plugin-deploy-now"
-      }
-    },
-    "@lerna-cola-sample/api-books": {
-      developPlugin: "core-plugin-develop-server",
-      deployPlugin: {
-        name: "@lerna-cola/plugin-deploy-now"
-      }
-    },
-    "@lerna-cola-sample/ui": {
-      buildPlugin: {
-        name: "core-plugin-script",
+        name: '@lerna-cola/plugin-deploy-now',
         options: {
-          scriptName: "build"
-        }
+          settings: {
+            alias: 'api-books.lerna-cola-sample',
+          },
+        },
+      },
+    },
+    '@lerna-cola-sample/api-books': {
+      developPlugin: 'plugin-develop-server',
+      deployPlugin: {
+        name: '@lerna-cola/plugin-deploy-now',
+        options: {
+          settings: {
+            alias: 'api-books.lerna-cola-sample',
+          },
+        },
+      },
+    },
+    '@lerna-cola-sample/ui': {
+      buildPlugin: {
+        name: 'plugin-script',
+        options: {
+          scriptName: 'build',
+        },
       },
       developPlugin: {
-        name: "core-plugin-script",
+        name: 'plugin-script',
         options: {
-          scriptName: "start"
-        }
+          scriptName: 'start',
+        },
       },
       deployPlugin: {
-        name: "@lerna-cola/plugin-deploy-now"
-      }
-    }
-  }
-};
+        name: '@lerna-cola/plugin-deploy-now',
+        options: {
+          settings: {
+            alias: 'lerna-cola-sample',
+            static: {
+              public: 'build',
+            },
+          },
+        },
+      },
+    },
+  },
+}

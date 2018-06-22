@@ -92,11 +92,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@lerna-cola/cli@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.15.tgz#026845b24169dd4f4c2b46cc6e56d9a50eb5a9fb"
+"@lerna-cola/cli@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.17.tgz#2b0543f1fc6faf82f62ccfeb1d57d2ed009a0b20"
   dependencies:
-    "@lerna-cola/lib" "^0.1.14"
+    "@lerna-cola/lib" "^0.1.16"
     "@lerna-cola/utils" "^0.1.11"
     chokidar "2.0.4"
     dotenv "6.0.0"
@@ -108,9 +108,9 @@
     semver "5.5.0"
     yargs "11.0.0"
 
-"@lerna-cola/lib@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.14.tgz#9ed2c5f60b3ea68b17f7cd88e055893da6a22e31"
+"@lerna-cola/lib@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.16.tgz#68bc6380709c539d40a12c3835065e3282e7226c"
   dependencies:
     chalk "2.4.1"
     dedent "0.7.0"
@@ -123,18 +123,20 @@
     load-json-file "5.0.0"
     p-map "^1.2.0"
     p-series "1.1.0"
+    pify "^3.0.0"
     ramda "0.25.0"
     read-pkg "3.0.0"
+    rimraf "^2.6.2"
     semver "5.5.0"
     toposort "2.0.2"
     write-json-file "2.3.0"
     write-pkg "3.2.0"
 
-"@lerna-cola/plugin-deploy-now@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.14.tgz#439c6e3c92108243da4a72b59f2105e3ecefa9fd"
+"@lerna-cola/plugin-deploy-now@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.16.tgz#242c6b95b6a9572205d270bc2c129dc1f8ca0ade"
   dependencies:
-    "@lerna-cola/lib" "^0.1.14"
+    "@lerna-cola/lib" "^0.1.16"
     chalk "2.4.1"
     dedent "0.7.0"
     deepmerge "2.1.1"
@@ -7318,7 +7320,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1:
+rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:

@@ -6,10 +6,10 @@ const app = require('./app')
 
 const httpListener = app.listen(Config.servers.basket.port, err => {
   if (err) {
-    console.error('api-basket failed to start')
+    console.error('Failed to start server')
     console.error(err)
   } else {
-    console.log(`api-books - started on ${Config.servers.basket.port}`)
+    console.log(`Server listening on ${Config.servers.basket.port}`)
   }
 })
 

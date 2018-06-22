@@ -10,9 +10,15 @@
   "main": "index.js",
   "author": "Sean Matheson <sean@ctrlplusb.com>",
   "license": "MIT",
+  "scripts": {
+    "clean": "lerna-cola clean",
+    "build": "lerna-cola build",
+    "develop": "lerna-cola develop",
+    "deploy": "lerna-cola deploy"
+  },
   "devDependencies": {
-    "@lerna-cola/cli": "^0.1.15",
-    "@lerna-cola/plugin-deploy-now": "^0.1.14",
+    "@lerna-cola/cli": "^0.1.17",
+    "@lerna-cola/plugin-deploy-now": "^0.1.16",
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
