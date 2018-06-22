@@ -17,7 +17,7 @@
     "deploy": "lerna-cola deploy"
   },
   "devDependencies": {
-    "@lerna-cola/cli": "^0.1.17",
+    "@lerna-cola/cli": "^0.1.18",
     "@lerna-cola/plugin-deploy-now": "^0.1.16",
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",

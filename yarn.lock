@@ -92,9 +92,9 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@lerna-cola/cli@^0.1.17":
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.17.tgz#2b0543f1fc6faf82f62ccfeb1d57d2ed009a0b20"
+"@lerna-cola/cli@^0.1.18":
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.18.tgz#e4a64924a0b65321109ec4353e519443b297ba45"
   dependencies:
     "@lerna-cola/lib" "^0.1.16"
     "@lerna-cola/utils" "^0.1.11"
