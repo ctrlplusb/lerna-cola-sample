@@ -1,7 +1,7 @@
 import React from 'react'
 import Fetch from '../components/fetch'
 
-const url = `${process.env.REACT_APP_API_BOOKS_URL}/health`
+const url = `/api/books/health`
 
 export default () => (
   <Fetch

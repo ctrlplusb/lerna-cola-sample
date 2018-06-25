@@ -57,8 +57,21 @@ module.exports = {
             'REACT_APP_API_BASKET_PORT',
             'REACT_APP_API_BOOKS_PORT',
           ],
+          pathAlias: {
+            rules: [
+              {
+                pathname: '/api/basket/**',
+                dest: 'api-basket-lerna-cola-sample.now.sh',
+              },
+              {
+                pathname: '/api/books/**',
+                dest: 'api-books-lerna-cola-sample.now.sh',
+              },
+            ],
+          },
           settings: {
             alias: 'lerna-cola-sample',
+            files: ['build'],
             static: {
               public: 'build',
             },

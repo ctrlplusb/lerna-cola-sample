@@ -12,13 +12,13 @@
   "license": "MIT",
   "scripts": {
     "clean": "lerna-cola clean",
-    "build": "lerna-cola build",
-    "develop": "lerna-cola develop",
-    "deploy": "lerna-cola deploy"
+    "build": "NODE_ENV=production lerna-cola build",
+    "develop": "NODE_ENV=development lerna-cola develop",
+    "deploy": "NODE_ENV=production lerna-cola deploy"
   },
   "devDependencies": {
-    "@lerna-cola/cli": "^0.1.21",
-    "@lerna-cola/plugin-deploy-now": "^0.1.18",
+    "@lerna-cola/cli": "^0.1.22",
+    "@lerna-cola/plugin-deploy-now": "^0.1.22",
     "babel-eslint": "^8.2.5",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",

@@ -13,7 +13,7 @@ const app = express()
   // parse application/json
   .use(bodyParser.json())
   // api routes
-  .use(routes)
+  .use('/api/books', routes)
   // Unhandled errors
   .use(unhandledErrorMiddleware)
 
