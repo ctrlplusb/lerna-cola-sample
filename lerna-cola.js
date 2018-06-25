@@ -18,8 +18,9 @@ module.exports = {
       deployPlugin: {
         name: '@lerna-cola/plugin-deploy-now',
         options: {
+          passThroughEnvVars: ['REACT_APP_API_BASKET_PORT'],
           settings: {
-            alias: 'api-books.lerna-cola-sample',
+            alias: 'api-basket-lerna-cola-sample',
           },
         },
       },
@@ -29,8 +30,9 @@ module.exports = {
       deployPlugin: {
         name: '@lerna-cola/plugin-deploy-now',
         options: {
+          passThroughEnvVars: ['REACT_APP_API_BOOKS_PORT'],
           settings: {
-            alias: 'api-books.lerna-cola-sample',
+            alias: 'api-books-lerna-cola-sample',
           },
         },
       },
@@ -51,11 +53,16 @@ module.exports = {
       deployPlugin: {
         name: '@lerna-cola/plugin-deploy-now',
         options: {
+          passThroughEnvVars: [
+            'REACT_APP_API_BASKET_PORT',
+            'REACT_APP_API_BOOKS_PORT',
+          ],
           settings: {
             alias: 'lerna-cola-sample',
             static: {
               public: 'build',
             },
+            type: 'static',
           },
         },
       },

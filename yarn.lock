@@ -92,11 +92,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@lerna-cola/cli@^0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.20.tgz#85cce376c49549020b97db6b82ba4384b9fbd523"
+"@lerna-cola/cli@^0.1.21":
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.21.tgz#28ac60733892e6736b0793eefa56e80e3002535e"
   dependencies:
-    "@lerna-cola/lib" "^0.1.17"
+    "@lerna-cola/lib" "^0.1.18"
     "@lerna-cola/utils" "^0.1.11"
     chokidar "2.0.4"
     dotenv "6.0.0"
@@ -108,9 +108,9 @@
     semver "5.5.0"
     yargs "11.0.0"
 
-"@lerna-cola/lib@^0.1.17":
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.17.tgz#33cbc6caa30b991b6d2df2fda121298d598fdd16"
+"@lerna-cola/lib@^0.1.18":
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.18.tgz#8df8bc146cd716db75fe7f60b56d969c5bb71a98"
   dependencies:
     chalk "2.4.1"
     dedent "0.7.0"
@@ -132,11 +132,11 @@
     write-json-file "2.3.0"
     write-pkg "3.2.0"
 
-"@lerna-cola/plugin-deploy-now@^0.1.17":
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.17.tgz#4192f66fd7e17a68914c6319ef0cfcd9cc1d70a5"
+"@lerna-cola/plugin-deploy-now@^0.1.18":
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.18.tgz#2aa1d68bbe2f76699c47b177c730d39203839618"
   dependencies:
-    "@lerna-cola/lib" "^0.1.17"
+    "@lerna-cola/lib" "^0.1.18"
     chalk "2.4.1"
     dedent "0.7.0"
     deepmerge "2.1.1"
@@ -2936,14 +2936,14 @@ eslint-plugin-react@7.4.0:
     jsx-ast-utils "^2.0.0"
     prop-types "^15.5.10"
 
-eslint-plugin-react@^7.9.1:
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.9.1.tgz#101aadd15e7c7b431ed025303ac7b421a8e3dc15"
+eslint-plugin-react@^7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.10.0.tgz#af5c1fef31c4704db02098f9be18202993828b50"
   dependencies:
     doctrine "^2.1.0"
-    has "^1.0.2"
+    has "^1.0.3"
     jsx-ast-utils "^2.0.1"
-    prop-types "^15.6.1"
+    prop-types "^15.6.2"
 
 eslint-restricted-globals@^0.1.1:
   version "0.1.1"
@@ -3874,7 +3874,7 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-has@^1.0.1, has@^1.0.2:
+has@^1.0.1, has@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
   dependencies:
@@ -6740,7 +6740,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.1:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
