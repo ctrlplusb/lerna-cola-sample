@@ -92,11 +92,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@lerna-cola/cli@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.18.tgz#e4a64924a0b65321109ec4353e519443b297ba45"
+"@lerna-cola/cli@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/cli/-/cli-0.1.20.tgz#85cce376c49549020b97db6b82ba4384b9fbd523"
   dependencies:
-    "@lerna-cola/lib" "^0.1.16"
+    "@lerna-cola/lib" "^0.1.17"
     "@lerna-cola/utils" "^0.1.11"
     chokidar "2.0.4"
     dotenv "6.0.0"
@@ -108,9 +108,9 @@
     semver "5.5.0"
     yargs "11.0.0"
 
-"@lerna-cola/lib@^0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.16.tgz#68bc6380709c539d40a12c3835065e3282e7226c"
+"@lerna-cola/lib@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/lib/-/lib-0.1.17.tgz#33cbc6caa30b991b6d2df2fda121298d598fdd16"
   dependencies:
     chalk "2.4.1"
     dedent "0.7.0"
@@ -132,11 +132,11 @@
     write-json-file "2.3.0"
     write-pkg "3.2.0"
 
-"@lerna-cola/plugin-deploy-now@^0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.16.tgz#242c6b95b6a9572205d270bc2c129dc1f8ca0ade"
+"@lerna-cola/plugin-deploy-now@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@lerna-cola/plugin-deploy-now/-/plugin-deploy-now-0.1.17.tgz#4192f66fd7e17a68914c6319ef0cfcd9cc1d70a5"
   dependencies:
-    "@lerna-cola/lib" "^0.1.16"
+    "@lerna-cola/lib" "^0.1.17"
     chalk "2.4.1"
     dedent "0.7.0"
     deepmerge "2.1.1"
@@ -599,9 +599,9 @@ babel-eslint@7.2.3:
     babel-types "^6.23.0"
     babylon "^6.17.0"
 
-babel-eslint@^8.2.3:
-  version "8.2.3"
-  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.3.tgz#1a2e6681cc9bc4473c32899e59915e19cd6733cf"
+babel-eslint@^8.2.5:
+  version "8.2.5"
+  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.5.tgz#dc2331c259d36782aa189da510c43dedd5adc7a3"
   dependencies:
     "@babel/code-frame" "7.0.0-beta.44"
     "@babel/traverse" "7.0.0-beta.44"
@@ -2888,9 +2888,9 @@ eslint-plugin-import@2.8.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
-eslint-plugin-import@^2.12.0:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.12.0.tgz#dad31781292d6664b25317fd049d2e2b2f02205d"
+eslint-plugin-import@^2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.13.0.tgz#df24f241175e312d91662dc91ca84064caec14ed"
   dependencies:
     contains-path "^0.1.0"
     debug "^2.6.8"

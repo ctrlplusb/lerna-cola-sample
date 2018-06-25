@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "src/index.js"
+  },
   "dependencies": {
     "@lerna-cola-sample/config": "^0.1.0",
     "@lerna-cola-sample/utils-api": "^0.1.0",
