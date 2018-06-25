@@ -1,0 +1,194 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ], 'reject-cycles': false, rejectCycles: false }
+2 verbose rootPath /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample
+3 info version 2.11.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/VERSION
+7 info versioning independent
+8 silly initialize attempt
+9 silly isDetachedHead
+10 silly getCurrentBranch
+11 verbose getCurrentBranch master
+12 verbose isDetachedHead false
+13 silly getCurrentBranch
+14 verbose getCurrentBranch master
+15 silly getUpdates
+16 info Checking for updated packages...
+17 silly hasTags
+18 verbose hasTags false
+19 info Comparing with initial commit.
+20 verbose updated @lerna-cola-sample/api-basket
+21 verbose updated @lerna-cola-sample/api-books
+22 verbose updated @lerna-cola-sample/config
+23 verbose updated @lerna-cola-sample/ui
+24 verbose updated @lerna-cola-sample/utils-api
+25 info Checking for prereleased packages...
+26 silly collectDependents
+27 silly isPackageDependentOf @lerna-cola-sample/api-basket @lerna-cola-sample/api-basket
+28 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/api-basket
+29 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/api-basket
+30 silly isPackageDependentOf @lerna-cola-sample/api-basket @lerna-cola-sample/api-books
+31 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/api-books
+32 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/api-books
+33 silly isPackageDependentOf @lerna-cola-sample/api-basket @lerna-cola-sample/config
+34 verbose dependent @lerna-cola-sample/api-basket depends on @lerna-cola-sample/config
+35 silly isPackageDependentOf @lerna-cola-sample/api-basket @lerna-cola-sample/ui
+36 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/ui
+37 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/ui
+38 silly isPackageDependentOf @lerna-cola-sample/api-basket @lerna-cola-sample/utils-api
+39 verbose dependent @lerna-cola-sample/api-basket depends on @lerna-cola-sample/utils-api
+40 silly isPackageDependentOf @lerna-cola-sample/api-books @lerna-cola-sample/api-basket
+41 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/api-basket
+42 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/api-basket
+43 silly isPackageDependentOf @lerna-cola-sample/api-books @lerna-cola-sample/api-books
+44 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/api-books
+45 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/api-books
+46 silly isPackageDependentOf @lerna-cola-sample/api-books @lerna-cola-sample/config
+47 verbose dependent @lerna-cola-sample/api-books depends on @lerna-cola-sample/config
+48 silly isPackageDependentOf @lerna-cola-sample/api-books @lerna-cola-sample/ui
+49 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/ui
+50 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/ui
+51 silly isPackageDependentOf @lerna-cola-sample/api-books @lerna-cola-sample/utils-api
+52 verbose dependent @lerna-cola-sample/api-books depends on @lerna-cola-sample/utils-api
+53 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/api-basket
+54 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/api-books
+55 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/config
+56 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/ui
+57 silly isPackageDependentOf @lerna-cola-sample/config @lerna-cola-sample/utils-api
+58 silly isPackageDependentOf @lerna-cola-sample/ui @lerna-cola-sample/api-basket
+59 silly isPackageDependentOf @lerna-cola-sample/ui @lerna-cola-sample/api-books
+60 silly isPackageDependentOf @lerna-cola-sample/ui @lerna-cola-sample/config
+61 silly isPackageDependentOf @lerna-cola-sample/ui @lerna-cola-sample/ui
+62 silly isPackageDependentOf @lerna-cola-sample/ui @lerna-cola-sample/utils-api
+63 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/api-basket
+64 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/api-books
+65 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/config
+66 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/ui
+67 silly isPackageDependentOf @lerna-cola-sample/utils-api @lerna-cola-sample/utils-api
+68 silly collectUpdates
+69 verbose has filtered update @lerna-cola-sample/api-basket
+70 verbose has filtered update @lerna-cola-sample/api-books
+71 verbose has filtered update @lerna-cola-sample/config
+72 verbose has filtered update @lerna-cola-sample/ui
+73 verbose has filtered update @lerna-cola-sample/utils-api
+74 silly initialize success
+75 silly execute attempt
+76 silly runScriptSync preversion lerna-cola-sample
+77 silly runScriptSync preversion @lerna-cola-sample/api-basket
+78 silly runScriptSync version @lerna-cola-sample/api-basket
+79 silly runScriptSync preversion @lerna-cola-sample/api-books
+80 silly runScriptSync version @lerna-cola-sample/api-books
+81 silly runScriptSync preversion @lerna-cola-sample/config
+82 silly runScriptSync version @lerna-cola-sample/config
+83 silly runScriptSync preversion @lerna-cola-sample/ui
+84 silly runScriptSync version @lerna-cola-sample/ui
+85 silly runScriptSync preversion @lerna-cola-sample/utils-api
+86 silly runScriptSync version @lerna-cola-sample/utils-api
+87 silly runScriptSync version lerna-cola-sample
+88 silly addFile /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/api-basket/package.json
+89 silly addFile /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/api-books/package.json
+90 silly addFile /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config/package.json
+91 silly addFile /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/ui/package.json
+92 silly addFile /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api/package.json
+93 silly commit Publish
+93 silly commit
+93 silly commit  - @lerna-cola-sample/api-basket@1.0.1
+93 silly commit  - @lerna-cola-sample/api-books@0.1.1
+93 silly commit  - @lerna-cola-sample/config@0.1.1
+93 silly commit  - @lerna-cola-sample/ui@0.1.1
+93 silly commit  - @lerna-cola-sample/utils-api@0.1.1
+94 verbose commit [ 'commit',
+94 verbose commit   '--no-verify',
+94 verbose commit   '-F',
+94 verbose commit   '/private/var/folders/hr/vqhns6w51fdbfr6bwcpx0mf40000gn/T/b239ae2b-900c-4fe5-a03b-06e4a77af6bf/lerna-commit.txt' ]
+95 silly addTag @lerna-cola-sample/api-basket@1.0.1
+96 silly addTag @lerna-cola-sample/api-books@0.1.1
+97 silly addTag @lerna-cola-sample/config@0.1.1
+98 silly addTag @lerna-cola-sample/ui@0.1.1
+99 silly addTag @lerna-cola-sample/utils-api@0.1.1
+100 silly runScriptSync postversion @lerna-cola-sample/api-basket
+101 silly runScriptSync postversion @lerna-cola-sample/api-books
+102 silly runScriptSync postversion @lerna-cola-sample/config
+103 silly runScriptSync postversion @lerna-cola-sample/ui
+104 silly runScriptSync postversion @lerna-cola-sample/utils-api
+105 silly runScriptSync postversion lerna-cola-sample
+106 info publish Publishing packages to npm...
+107 silly existsSync /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/api-basket/scripts/prepublish.js
+108 verbose execScript No prepublish script found at /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/api-basket/scripts/prepublish.js
+109 silly existsSync /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/api-books/scripts/prepublish.js
+110 verbose execScript No prepublish script found at /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/api-books/scripts/prepublish.js
+111 silly existsSync /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config/scripts/prepublish.js
+112 verbose execScript No prepublish script found at /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config/scripts/prepublish.js
+113 silly existsSync /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/ui/scripts/prepublish.js
+114 verbose execScript No prepublish script found at /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/ui/scripts/prepublish.js
+115 silly existsSync /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api/scripts/prepublish.js
+116 verbose execScript No prepublish script found at /Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api/scripts/prepublish.js
+117 verbose publishing @lerna-cola-sample/config
+118 silly publishTaggedInDir latest config
+119 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config' }
+120 verbose publishing @lerna-cola-sample/utils-api
+121 silly publishTaggedInDir latest utils-api
+122 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api' }
+123 error publish Retrying failed publish: @lerna-cola-sample/config
+124 verbose publish error undefined
+125 verbose publishing @lerna-cola-sample/config
+126 silly publishTaggedInDir latest config
+127 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config' }
+128 error publish Retrying failed publish: @lerna-cola-sample/utils-api
+129 verbose publish error undefined
+130 verbose publishing @lerna-cola-sample/utils-api
+131 silly publishTaggedInDir latest utils-api
+132 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api' }
+133 error publish Retrying failed publish: @lerna-cola-sample/config
+134 verbose publish error undefined
+135 verbose publishing @lerna-cola-sample/config
+136 silly publishTaggedInDir latest config
+137 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config' }
+138 error publish Retrying failed publish: @lerna-cola-sample/utils-api
+139 verbose publish error undefined
+140 verbose publishing @lerna-cola-sample/utils-api
+141 silly publishTaggedInDir latest utils-api
+142 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api' }
+143 error publish Retrying failed publish: @lerna-cola-sample/config
+144 verbose publish error undefined
+145 verbose publishing @lerna-cola-sample/config
+146 silly publishTaggedInDir latest config
+147 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config' }
+148 error publish Retrying failed publish: @lerna-cola-sample/utils-api
+149 verbose publish error undefined
+150 verbose publishing @lerna-cola-sample/utils-api
+151 silly publishTaggedInDir latest utils-api
+152 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api' }
+153 error publish Retrying failed publish: @lerna-cola-sample/config
+154 verbose publish error undefined
+155 verbose publishing @lerna-cola-sample/config
+156 silly publishTaggedInDir latest config
+157 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/config' }
+158 error publish Retrying failed publish: @lerna-cola-sample/utils-api
+159 verbose publish error undefined
+160 verbose publishing @lerna-cola-sample/utils-api
+161 silly publishTaggedInDir latest utils-api
+162 silly getExecOpts { cwd: '/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/packages/utils-api' }
+163 error publish Ran out of retries while publishing @lerna-cola-sample/utils-api Error: Command failed: yarn publish --tag latest --new-version 0.1.1
+163 error publish error Couldn't publish package: "https://registry.yarnpkg.com/@lerna-cola-sample%2futils-api: You must sign up for private packages"
+163 error publish [1/4] Bumping version...
+163 error publish info Current version: 0.1.1
+163 error publish [2/4] Logging in...
+163 error publish [3/4] Publishing...
+163 error publish info Visit https://yarnpkg.com/en/docs/cli/publish for documentation about this command.
+163 error publish
+163 error publish     at Promise.all.then.arr (/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/node_modules/lerna/node_modules/execa/index.js:236:11)
+163 error publish     at <anonymous>
+163 error publish     at process._tickCallback (internal/process/next_tick.js:188:7)
+164 error execute callback with error
+165 error Error: Command failed: yarn publish --tag latest --new-version 0.1.1
+165 error error Couldn't publish package: "https://registry.yarnpkg.com/@lerna-cola-sample%2futils-api: You must sign up for private packages"
+165 error [1/4] Bumping version...
+165 error info Current version: 0.1.1
+165 error [2/4] Logging in...
+165 error [3/4] Publishing...
+165 error info Visit https://yarnpkg.com/en/docs/cli/publish for documentation about this command.
+165 error
+165 error     at Promise.all.then.arr (/Users/seanmatheson/Development/ctrlplusb/lerna-cola-sample/node_modules/lerna/node_modules/execa/index.js:236:11)
+165 error     at <anonymous>

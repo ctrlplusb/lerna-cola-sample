@@ -1,4 +1,7 @@
 {
+  "publishConfig": {
+    "access": "public"
+  },
   "name": "@lerna-cola-sample/utils-api",
   "version": "0.1.1",
   "main": "src/index.js",
