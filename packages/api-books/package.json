@@ -1,15 +1,15 @@
 {
   "private": true,
   "name": "@lerna-cola-sample/api-books",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
     "start": "src/index.js"
   },
   "dependencies": {
-    "@lerna-cola-sample/config": "^0.1.1",
-    "@lerna-cola-sample/utils-api": "^0.1.1",
+    "@lerna-cola-sample/config": "^0.1.2",
+    "@lerna-cola-sample/utils-api": "^0.1.2",
     "body-parser": "^1.18.3",
     "express": "^4.16.3"
   }
